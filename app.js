@@ -14,7 +14,7 @@ app.get( "/contact" , function(req,res){
 app.get("/ip",function(req,res){
   const ipInfo = req.ipInfo;
   var message = `Hey, you are browsing from ${ipInfo.city}, ${ipInfo.country}`;
-  res.send(message);
+  res.send(message+ "\n\n<br>"+ req.ipInfo);
 });
 app.listen(process.env.PORT,process.env.IP);
 // app.listen("3001","localhost",function(){
