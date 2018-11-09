@@ -16,7 +16,7 @@ app.get("/ip",function(req,res){
   var message = `Hey, you are browsing from ${ipInfo.city}, ${ipInfo.country}`;
   res.send(message);
 });
-// app.listen(process.env.PORT,process.env.IP);
-app.listen("3001","localhost",function(){
-    console.log("localhost:3001");
-});
+app.listen(process.env.PORT,process.env.IP);
+// app.listen("3001","localhost",function(){
+//     console.log("localhost:3001");
+// });
