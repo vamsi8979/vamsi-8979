@@ -1,10 +1,10 @@
 # vamsi-8979
-Hello Wolrd
-# Project Title
-
-One Paragraph of project description goes here
-
+This is MY blog
+# Project Link
+http://vamsi-8979.herokuapp.com
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+Two routes
+### 
+/contact
+###
+/ip
