@@ -6,5 +6,3 @@ http://vamsi-8979.herokuapp.com
 Two routes
 ### 
 /contact
-###
-/ip
