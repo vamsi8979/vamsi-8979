@@ -12,7 +12,7 @@ app.get( "/contact" , function(req,res){
 //other page not found handler
 app.get('*', function(req, res, next){
 	res.status(404);
-	res.send('<h1>THE PAGE YOU ARE LOOKING FOR  <span style="color : red ; "> 404 NOT FOUND </span></h1>');
+	res.send('<h1>THE PAGE YOU ARE LOOKING FOR  <span style="color : blue ; "> 404 NOT FOUND </span></h1>');
 });
 app.listen(process.env.PORT,process.env.IP);
 // app.listen("3001","localhost",function(){
